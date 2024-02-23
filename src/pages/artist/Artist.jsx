@@ -1,6 +1,7 @@
 const Artist = () => {
     return (
         <>
+        <div></div>
         </>
     )
 }
