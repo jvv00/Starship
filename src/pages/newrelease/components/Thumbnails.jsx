@@ -1,5 +1,8 @@
 const Thumbnails = () => {
-  return;
-};
+    return (
+        <>
+        </>
+    )
+}
 
-export default Thumbnails;
+export default Thumbnails

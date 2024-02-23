@@ -1,5 +1,8 @@
 const NewsList = () => {
-  return;
-};
+    return (
+        <>
+        </>
+    )
+}
 
-export default NewsList;
+export default NewsList

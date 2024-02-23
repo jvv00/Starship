@@ -1,5 +1,8 @@
 const NewRelease = () => {
-  return <></>;
-};
+    return (
+        <>
+        </>
+    )
+}
 
-export default NewRelease;
+export default NewRelease
