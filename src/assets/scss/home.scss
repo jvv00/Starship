@@ -1,0 +1,44 @@
+.main-video {
+  position: fixed;
+  top: -70%;
+  left: 100%;
+  z-index: 10000;
+  width: 100%;
+
+  .logo-scale {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--background {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: -1;
+
+      mask-image: url(../images/logo.svg);
+      mask-size: 60% 60%;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      // animation: mask-play 1.4s steps(22) forwards;
+
+      &-image {
+        width: 100%;
+        height: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.logo-typo {
+  width: 80%;
+}

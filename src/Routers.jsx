@@ -1,14 +1,8 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./assets/components/layout/Layout";
+// import { Route, Router, Switch } from "react-router-dom";
+// import Layout from "./components/layout/Layout";
 
-const Routers = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}></Route>
-      </Routes>
-    </BrowserRouter>
-  );
-};
+// const Routers = () => {
+//   return <Router></Router>;
+// };
 
-export default Routers;
+// export default Routers;

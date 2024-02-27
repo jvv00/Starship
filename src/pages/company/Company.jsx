@@ -1,8 +1,5 @@
 const Company = () => {
-    return (
-        <>
-        </>
-    )
-}
+  return <></>;
+};
 
-export default Company
+export default Company;
